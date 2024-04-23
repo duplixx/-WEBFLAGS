@@ -54,7 +54,7 @@ function About() {
         <h2 className='text-xl font-bold'>Our Approach</h2>
         <div className='md:flex md:flex-cols flex-row w-full  justify-center items-start md:space-x-[80px] space-y-4 '>
         <p className='text-lg mt-4'>
-        Our approach is collaborative, transparent, and results-driven. We believe that successful partnerships are built on trust, communication, and mutual respect. That's why we work closely with our clients to understand their unique needs and objectives, providing tailored solutions that deliver tangible results and drive business growth.
+        Our approach is collaborative, transparent, and results-driven. We believe that successful partnerships are built on trust, communication, and mutual respect. Thats why we work closely with our clients to understand their unique needs and objectives, providing tailored solutions that deliver tangible results and drive business growth.
         </p>
         <Image
               src="https://t3.ftcdn.net/jpg/04/40/29/94/360_F_440299419_s4b12RfNDJvpplheVDmKdhFGJiHlAYNs.jpg"

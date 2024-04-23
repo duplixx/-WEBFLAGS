@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { MouseEvent, useRef, useState } from "react";
 
 interface CardProps {
@@ -20,10 +21,12 @@ export const Card: React.FC<CardProps> = ({
       className="w-full h-full border-2 border-[#2F2F2F] m-2  rounded-3xl shadow-md"
     >
       <div className="flex flex-col items-start text-start gap-5 p-5">
-        <img
-          className="w-[382px] h-[250px] rounded-3xl object-cover"
+        <Image
+          className=" rounded-3xl object-cover"
           alt="Img"
           src={imageSrc}
+          width={382}
+          height={250}
         />
         <div className="flex flex-col items-start gap-5 justify-center">
           <p className="md:w-[366px] h-[54px] font-medium text-white text-[24px] text-ellipsis overflow-hidden leading-[24.1px] overflow-hidden">
