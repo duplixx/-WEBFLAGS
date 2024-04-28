@@ -156,7 +156,7 @@ const dummyData = [
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        class="w-10 h-10"
+        className="w-10 h-10"
       >
         <path
           stroke-linecap="round"
@@ -189,6 +189,7 @@ const dummyData = [
     title: "Security Features",
     description:
       "Implement security measures to protect user data and transactions.",
+      
   },
   {
     imageSrc: (
@@ -256,7 +257,7 @@ const dummyData = [
 
 function Services() {
   return (
-    <div classNameName=" flex flex-col space-y-6 my-8" id="#services">
+    <div className=" flex flex-col space-y-6 my-8" id="#services">
       <InfiniteMovingCards items={dummyData} direction="right" speed="slow" />
     </div>
   );
