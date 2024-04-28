@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['t3.ftcdn.net', 'themoviedb.org',"images.unsplash.com"],
+        domains: ['t3.ftcdn.net','aceternity.com', 'themoviedb.org',"images.unsplash.com","dummyimage.com"],
       },
 };
 
