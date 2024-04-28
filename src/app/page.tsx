@@ -124,7 +124,7 @@ export default function Home() {
        className="flex items-center flex-col space-y-4 justify-center px-2 md:px-10 py-4 w-full h-full"
       >
         <h1 className="text-white text-2xl md:text-5xl font-semibold text-center">
-        Let's discuss & make <br/> something <i>cool</i> together
+        Let &apos;s discuss & make <br/> something <i>cool</i> together
         </h1>
         <Link href="https://wa.me/9557971037">
         <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
